@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell aes_xtime.TECH
+Register bits:  0 of 44457 (0.000%)
+I/O cells:      16
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB         8          100.0
+                               LUT4         3          100.0
+                                 OB         8          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL        21

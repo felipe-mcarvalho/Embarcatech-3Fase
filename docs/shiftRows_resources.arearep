@@ -1,0 +1,11 @@
+----------------------------------------------------------------------
+Report for cell aes_shift_rows.TECH
+Register bits:  0 of 44457 (0.000%)
+I/O cells:      256
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB       128          100.0
+                                 OB       128          100.0
+                        VERIFIC_PWR         1          100.0
+                              TOTAL       258

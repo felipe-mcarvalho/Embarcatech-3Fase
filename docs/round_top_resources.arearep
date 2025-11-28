@@ -1,0 +1,188 @@
+----------------------------------------------------------------------
+Report for cell aes_round.TECH
+Register bits:  0 of 44457 (0.000%)
+I/O cells:      385
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                GSR         1          100.0
+                                 IB       257          100.0
+                               LUT4       355          100.0
+                                 OB       128          100.0
+                          ROM256X1A       128          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+                  aes_add_round_key         1
+                    aes_mix_columns         1
+                          aes_xtime         1
+                       aes_xtime_U0         1
+                       aes_xtime_U1         1
+                      aes_xtime_U10         1
+                      aes_xtime_U11         1
+                      aes_xtime_U12         1
+                      aes_xtime_U13         1
+                      aes_xtime_U14         1
+                       aes_xtime_U2         1
+                       aes_xtime_U3         1
+                       aes_xtime_U4         1
+                       aes_xtime_U5         1
+                       aes_xtime_U6         1
+                       aes_xtime_U7         1
+                       aes_xtime_U8         1
+                       aes_xtime_U9         1
+                              TOTAL       888
+----------------------------------------------------------------------
+Report for cell aes_add_round_key.v1
+Instance Path : u_addroundkey
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       128           36.1
+                              TOTAL       128
+----------------------------------------------------------------------
+Report for cell aes_mix_columns.v1
+Instance Path : u_mixcolumns
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4       227           63.9
+                          ROM256X1A        80           62.5
+SUB MODULES
+                          aes_xtime         1
+                       aes_xtime_U0         1
+                       aes_xtime_U1         1
+                      aes_xtime_U10         1
+                      aes_xtime_U11         1
+                      aes_xtime_U12         1
+                      aes_xtime_U13         1
+                      aes_xtime_U14         1
+                       aes_xtime_U2         1
+                       aes_xtime_U3         1
+                       aes_xtime_U4         1
+                       aes_xtime_U5         1
+                       aes_xtime_U6         1
+                       aes_xtime_U7         1
+                       aes_xtime_U8         1
+                       aes_xtime_U9         1
+                              TOTAL       323
+----------------------------------------------------------------------
+Report for cell aes_xtime.v1
+Instance Path : u_mixcolumns.gen_xtime[9].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         4            1.1
+                          ROM256X1A         5            3.9
+                              TOTAL         9
+----------------------------------------------------------------------
+Report for cell aes_xtime_U0.v1
+Instance Path : u_mixcolumns.gen_xtime[8].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         9            2.5
+                          ROM256X1A         5            3.9
+                              TOTAL        14
+----------------------------------------------------------------------
+Report for cell aes_xtime_U1.v1
+Instance Path : u_mixcolumns.gen_xtime[7].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         5            1.4
+                          ROM256X1A         5            3.9
+                              TOTAL        10
+----------------------------------------------------------------------
+Report for cell aes_xtime_U2.v1
+Instance Path : u_mixcolumns.gen_xtime[6].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                          ROM256X1A         5            3.9
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell aes_xtime_U3.v1
+Instance Path : u_mixcolumns.gen_xtime[5].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         4            1.1
+                          ROM256X1A         5            3.9
+                              TOTAL         9
+----------------------------------------------------------------------
+Report for cell aes_xtime_U4.v1
+Instance Path : u_mixcolumns.gen_xtime[4].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        11            3.1
+                          ROM256X1A         5            3.9
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell aes_xtime_U5.v1
+Instance Path : u_mixcolumns.gen_xtime[3].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         2            0.6
+                          ROM256X1A         5            3.9
+                              TOTAL         7
+----------------------------------------------------------------------
+Report for cell aes_xtime_U6.v1
+Instance Path : u_mixcolumns.gen_xtime[2].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                          ROM256X1A         5            3.9
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell aes_xtime_U7.v1
+Instance Path : u_mixcolumns.gen_xtime[1].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         1            0.3
+                          ROM256X1A         5            3.9
+                              TOTAL         6
+----------------------------------------------------------------------
+Report for cell aes_xtime_U8.v1
+Instance Path : u_mixcolumns.gen_xtime[15].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        11            3.1
+                          ROM256X1A         5            3.9
+                              TOTAL        16
+----------------------------------------------------------------------
+Report for cell aes_xtime_U9.v1
+Instance Path : u_mixcolumns.gen_xtime[14].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                          ROM256X1A         5            3.9
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell aes_xtime_U10.v1
+Instance Path : u_mixcolumns.gen_xtime[13].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         3            0.8
+                          ROM256X1A         5            3.9
+                              TOTAL         8
+----------------------------------------------------------------------
+Report for cell aes_xtime_U11.v1
+Instance Path : u_mixcolumns.gen_xtime[12].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         5            1.4
+                          ROM256X1A         5            3.9
+                              TOTAL        10
+----------------------------------------------------------------------
+Report for cell aes_xtime_U12.v1
+Instance Path : u_mixcolumns.gen_xtime[11].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         5            1.4
+                          ROM256X1A         5            3.9
+                              TOTAL        10
+----------------------------------------------------------------------
+Report for cell aes_xtime_U13.v1
+Instance Path : u_mixcolumns.gen_xtime[10].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                          ROM256X1A         5            3.9
+                              TOTAL         5
+----------------------------------------------------------------------
+Report for cell aes_xtime_U14.v1
+Instance Path : u_mixcolumns.gen_xtime[0].u_xtime
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4        20            5.6
+                          ROM256X1A         5            3.9
+                              TOTAL        25
