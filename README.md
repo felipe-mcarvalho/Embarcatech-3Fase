@@ -9,6 +9,7 @@ A referência utilizada para o desenvolvimento e validação dos vetores de test
 
 ### Visão Física (Layout)
 ![Physical View do SoC com o PicoRV32](docs/img/soc_top_physical_view.png)
+![Foto do Projeto](docs/img/placa1.jpg)
 
 ### Simulação: Bloco AES
 Validação dos vetores de teste.
