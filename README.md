@@ -26,6 +26,7 @@ Execução de código e validação do processador RISC-V.
 ### Simulação: Comunicação UART
 Teste de transmissão e recepção serial.
 ![Testbench UART](docs/img/tb_uart1.png)
+![Teste UART sintetizada na colorlight-i9](docs/img/teste_uart_sintetizada.png)
 ![Pinagem UART](docs/img/pinagem_uart.png)
 
 ### Erros da placa
