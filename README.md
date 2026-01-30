@@ -7,7 +7,7 @@ A referência utilizada para o desenvolvimento e validação dos vetores de test
 
 ## Vídeos, Imagens e Resultados
 
-### Demonstrações em vídeos
+### Demonstrações em  - clique na thumbnail
 [![Validação módulo AES](https://img.youtube.com/vi/sAaSfQWxbzg/0.jpg)](https://www.youtube.com/watch?v=sAaSfQWxbzg)
 [![Validação RISC-V](https://img.youtube.com/vi/2NX07yqfi-U/0.jpg)](https://www.youtube.com/watch?v=2NX07yqfi-U)
 
