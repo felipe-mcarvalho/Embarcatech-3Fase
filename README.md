@@ -5,7 +5,13 @@ A referência utilizada para o desenvolvimento e validação dos vetores de test
 - `docs/NIST.FIPS.197.pdf`
 
 
-## Imagens e Resultados
+## Vídeos, Imagens e Resultados
+
+### Demonstrações em vídeos
+[![Validação módulo AES](https://img.youtube.com/vi/sAaSfQWxbzg/0.jpg)](https://www.youtube.com/watch?v=sAaSfQWxbzg)
+[![Validação RISC-V](https://img.youtube.com/vi/2NX07yqfi-U/0.jpg)](https://www.youtube.com/watch?v=2NX07yqfi-U)
+
+
 
 ### Visão Física (Layout)
 ![Physical View do SoC com o PicoRV32](docs/img/soc_top_physical_view.png)
