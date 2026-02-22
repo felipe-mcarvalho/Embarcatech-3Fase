@@ -12,15 +12,15 @@ module fifo_buffer_circular_param #(
     output [DATA_WIDTH-1:0] r_data
 );
 
-    // CALCULO AUTOMATICO DOS BITS DE ENDEREÇO
-    // A função $clog2 calcula o logaritmo na base 2 arredondado para cima.
+    // CALCULO AUTOMATICO DOS BITS DE ENDEREÃ‡O
+    // A funÃ§Ã£o $clog2 calcula o logaritmo na base 2 arredondado para cima.
     // Ex: Se FIFO_DEPTH = 8, $clog2(8) = 3 bits.
     // Ex: Se FIFO_DEPTH = 16, $clog2(16) = 4 bits.
     localparam PTR_WIDTH = $clog2(FIFO_DEPTH);
     
     integer i;
     
-    // Array de memória: Profundidade x Largura
+    // Array de memÃ³ria: Profundidade x Largura
     reg [DATA_WIDTH-1:0] array_reg [0:FIFO_DEPTH-1];
     
     // Ponteiros
@@ -58,9 +58,9 @@ module fifo_buffer_circular_param #(
         end
     end
 
-    // Lógica de incremento
-    // Nota: Isso funciona perfeitamente quando FIFO_DEPTH é potência de 2 (8, 16, 32...)
-    // pois o overflow binário natural faz a volta para 0.
+    // LÃ³gica de incremento
+    // Nota: Isso funciona perfeitamente quando FIFO_DEPTH Ã© potÃªncia de 2 (8, 16, 32...)
+    // pois o overflow binÃ¡rio natural faz a volta para 0.
     assign w_ptr_succ = w_ptr_reg + 1'b1;
     assign r_ptr_succ = r_ptr_reg + 1'b1;
 

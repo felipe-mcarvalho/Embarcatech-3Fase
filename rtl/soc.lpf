@@ -1,0 +1,34 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+
+# 1. CLOCK (Pino P3 - 25MHz)
+LOCATE COMP "clk" SITE "P3";
+IOBUF  PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25.0 MHz;
+
+# 2. UART RX (Pino E5 - Conecte ao TX do adaptador USB-Serial)
+LOCATE COMP "uart_rx" SITE "E5";
+IOBUF  PORT "uart_rx" IO_TYPE=LVCMOS33;
+
+# 3. UART TX (Pino F4 - Conecte ao RX do adaptador USB-Serial)
+LOCATE COMP "uart_tx" SITE "F4";
+IOBUF  PORT "uart_tx" IO_TYPE=LVCMOS33;
+
+# 4. RESET (Pino E1)
+# Para resetar, conecte este pino ao GND.
+LOCATE COMP "resetn" SITE "E1";
+IOBUF  PORT "resetn" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# 5. LEDs (Opcional - Mapeando os 8 bits de saída para pinos de debug)
+#LOCATE COMP "leds[0]" SITE "P11"; 
+#LOCATE COMP "leds[1]" SITE "N11";
+#LOCATE COMP "leds[2]" SITE "M11";
+#LOCATE COMP "leds[3]" SITE "L11";
+#IOBUF  PORT "leds[0]" IO_TYPE=LVCMOS33;
+#IOBUF  PORT "leds[1]" IO_TYPE=LVCMOS33;
+#IOBUF  PORT "leds[2]" IO_TYPE=LVCMOS33;
+#IOBUF  PORT "leds[3]" IO_TYPE=LVCMOS33;
+
+# 6. TRAP (Pino de erro da CPU)
+LOCATE COMP "trap" SITE "P2"; 
+IOBUF  PORT "trap" IO_TYPE=LVCMOS33;
